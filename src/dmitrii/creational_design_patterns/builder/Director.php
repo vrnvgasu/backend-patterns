@@ -4,7 +4,10 @@
 namespace Src\dmitrii\creational_design_patterns\builder;
 
 
-class Creator
+use Src\dmitrii\creational_design_patterns\builder\builders\BuilderHouse;
+use Src\dmitrii\creational_design_patterns\builder\houses\House;
+
+class Director
 {
     /** Создатель строит строение с одник окном и дверью
      * @param BuilderHouse $builder

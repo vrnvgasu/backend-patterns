@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Src\dmitrii\creational_design_patterns\builder;
+namespace Src\dmitrii\creational_design_patterns\builder\elements_for_house;
 
 
 class Window extends HouseElement
