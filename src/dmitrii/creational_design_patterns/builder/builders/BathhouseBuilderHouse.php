@@ -1,8 +1,13 @@
 <?php
 
 
-namespace Src\dmitrii\creational_design_patterns\builder;
+namespace Src\dmitrii\creational_design_patterns\builder\builders;
 
+
+use Src\dmitrii\creational_design_patterns\builder\elements_for_house\Door;
+use Src\dmitrii\creational_design_patterns\builder\elements_for_house\Window;
+use Src\dmitrii\creational_design_patterns\builder\houses\Bathhouse;
+use Src\dmitrii\creational_design_patterns\builder\houses\House;
 
 class BathhouseBuilderHouse implements BuilderHouse
 {
