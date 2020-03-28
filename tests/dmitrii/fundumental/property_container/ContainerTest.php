@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\dmitrii\fundumental;
+namespace Tests\dmitrii\fundumental\property_container;
 
 use PHPUnit\Framework\TestCase;
 use Src\dmitrii\fundumental\property_container\Post;
