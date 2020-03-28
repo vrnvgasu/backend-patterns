@@ -1,8 +1,6 @@
 <?php
 
-
-namespace Src\dmitrii\creational_design_patterns\builder\elements_for_house;
-
+namespace Src\dmitrii\creational_design_patterns\builder\example_1\elements_for_house;
 
 abstract class HouseElement
 {

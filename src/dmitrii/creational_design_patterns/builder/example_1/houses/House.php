@@ -1,10 +1,8 @@
 <?php
 
+namespace Src\dmitrii\creational_design_patterns\builder\example_1\houses;
 
-namespace Src\dmitrii\creational_design_patterns\builder\houses;
-
-
-use Src\dmitrii\creational_design_patterns\builder\elements_for_house\HouseElement;
+use Src\dmitrii\creational_design_patterns\builder\example_1\elements_for_house\HouseElement;
 
 abstract class House
 {
@@ -21,4 +19,5 @@ abstract class House
     {
         $this->data[$name] = $element;
     }
+
 }

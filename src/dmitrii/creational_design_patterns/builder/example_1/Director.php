@@ -1,11 +1,9 @@
 <?php
 
+namespace Src\dmitrii\creational_design_patterns\builder\example_1;
 
-namespace Src\dmitrii\creational_design_patterns\builder;
-
-
-use Src\dmitrii\creational_design_patterns\builder\builders\BuilderHouse;
-use Src\dmitrii\creational_design_patterns\builder\houses\House;
+use Src\dmitrii\creational_design_patterns\builder\example_1\builders\BuilderHouse;
+use Src\dmitrii\creational_design_patterns\builder\example_1\houses\House;
 
 class Director
 {

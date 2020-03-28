@@ -1,13 +1,11 @@
 <?php
 
+namespace Src\dmitrii\creational_design_patterns\builder\example_1\builders;
 
-namespace Src\dmitrii\creational_design_patterns\builder\builders;
-
-
-use Src\dmitrii\creational_design_patterns\builder\elements_for_house\Door;
-use Src\dmitrii\creational_design_patterns\builder\elements_for_house\Window;
-use Src\dmitrii\creational_design_patterns\builder\houses\GardenHouse;
-use Src\dmitrii\creational_design_patterns\builder\houses\House;
+use Src\dmitrii\creational_design_patterns\builder\example_1\elements_for_house\Door;
+use Src\dmitrii\creational_design_patterns\builder\example_1\elements_for_house\Window;
+use Src\dmitrii\creational_design_patterns\builder\example_1\houses\GardenHouse;
+use Src\dmitrii\creational_design_patterns\builder\example_1\houses\House;
 
 class GardenHouseBuilderHouse implements BuilderHouse
 {
