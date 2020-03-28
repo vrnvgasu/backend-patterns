@@ -1,8 +1,6 @@
 <?php
 
-
-namespace Tests\dmitrii\prototype;
-
+namespace Tests\dmitrii\tests\creational_design_patterns\prototype;
 
 use PHPUnit\Framework\TestCase;
 use Src\dmitrii\creational_design_patterns\prototype\Author;
