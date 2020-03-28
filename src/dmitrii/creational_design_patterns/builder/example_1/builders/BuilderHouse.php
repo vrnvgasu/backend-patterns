@@ -1,10 +1,8 @@
 <?php
 
+namespace Src\dmitrii\creational_design_patterns\builder\example_1\builders;
 
-namespace Src\dmitrii\creational_design_patterns\builder\builders;
-
-
-use Src\dmitrii\creational_design_patterns\builder\houses\House;
+use Src\dmitrii\creational_design_patterns\builder\example_1\houses\House;
 
 interface BuilderHouse
 {

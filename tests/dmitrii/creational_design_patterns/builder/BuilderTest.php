@@ -4,11 +4,11 @@
 namespace Tests\dmitrii\creational_design_patterns\builder;
 
 use PHPUnit\Framework\TestCase;
-use Src\dmitrii\creational_design_patterns\builder\builders\BathhouseBuilderHouse;
-use Src\dmitrii\creational_design_patterns\builder\builders\GardenHouseBuilderHouse;
-use Src\dmitrii\creational_design_patterns\builder\Director;
-use Src\dmitrii\creational_design_patterns\builder\houses\Bathhouse;
-use Src\dmitrii\creational_design_patterns\builder\houses\GardenHouse;
+use Src\dmitrii\creational_design_patterns\builder\example_1\builders\BathhouseBuilderHouse;
+use Src\dmitrii\creational_design_patterns\builder\example_1\builders\GardenHouseBuilderHouse;
+use Src\dmitrii\creational_design_patterns\builder\example_1\Director;
+use Src\dmitrii\creational_design_patterns\builder\example_1\houses\Bathhouse;
+use Src\dmitrii\creational_design_patterns\builder\example_1\houses\GardenHouse;
 
 class BuilderTest extends TestCase
 {
