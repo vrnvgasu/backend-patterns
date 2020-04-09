@@ -8,6 +8,7 @@ interface MetaInterface
 {
     /**
      * @param $title
+     * @return string
      */
-    public function getMeta($title): void;
+    public function getMeta($title): string;
 }
