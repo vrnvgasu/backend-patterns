@@ -6,7 +6,8 @@
 
   "require": {
     "php": ">=7.4",
-    "nesbot/carbon": "^2.32"
+    "nesbot/carbon": "^2.32",
+    "ext-json": "*"
   },
 
   "require-dev": {
